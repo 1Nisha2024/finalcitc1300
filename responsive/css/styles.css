@@ -62,9 +62,9 @@ nav li a:hover {
 
 /* Headings */
 h1, h2, h3 {
-    text-align: center;
-    color: rgb(20, 228, 255);
-    text-shadow: 1px 1px 1px black;
+text-align: center;
+    color: rgb(143, 38, 108);
+    font-family: "Playwrite AU TAS", cursive;
 }
 
 /* Footer Styles */
