@@ -125,6 +125,12 @@ h2,
 h3, 
 footer {
     text-align: center;
+    color: rgb(73, 0, 49);
+    font-family: "Playwrite AU TAS", cursive;
+
+}
+
+}
 
 }
 section {
@@ -150,3 +156,4 @@ footer {
 video {
     margin-top: 20px;
 }
+
