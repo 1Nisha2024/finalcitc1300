@@ -1,0 +1,188 @@
+/* Global Styles */
+body {
+    background-color: rgba(255, 192, 203, 0.4);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px;
+}
+
+
+}
+#container {
+    background-color: rgba(216, 94, 80, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Video Styles */
+video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: rgb(182, 220, 255);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav li a {
+    padding: 10px 20px;
+    background-color: rgba(216, 13, 64, 0.9);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav li a:hover {
+    background-color: pink;
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: rgb(20, 228, 255);
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: rgba(255, 20, 145, 0.6);
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    nav li {
+        display: block;
+        margin: 20px 0;
+    }
+
+    video {
+        width: 90%; 
+    }
+
+    #container {
+        padding: 15px; 
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    video {
+        width: 80%; 
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    #container {
+        width: 60%;
+        margin: 20px auto;
+        
+    }
+
+    nav li a {
+        background-color: rgba(250, 114, 216, 0.8);
+    }
+    video {
+        max-width: 20%; 
+        height: auto; 
+    }
+    
+    .banner1 {
+        width: 500%; 
+        max-width: 300px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #multi_col {
+        display: flex;
+        flex-wrap: wrap; 
+    }
+
+    .col {
+        margin: 5px;
+        padding: 10px;
+        border: 2px solid rgb(192, 7, 100);
+        flex: 1 1 45%; 
+        max-width: 45%;
+    }
+    .col4 {
+        margin: 5px;
+        padding: 10px;
+        border: 2px solid rgb(192, 7, 100);
+        flex: 1 1 45%; 
+        max-width: 45%;
+        align-items: center    
+       
+    }
+  
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    #container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background: rgb(240, 131, 131);
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    header, nav, main, footer {
+        margin-bottom: 20px;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+}
